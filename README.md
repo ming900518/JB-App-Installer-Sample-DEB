@@ -1,8 +1,8 @@
 # JB-App-Installer-Sample-DEB
 
-A sample DEB file using AppSync, appinst and signer.sh to fake sign and install apps on Jailbroken iDevices.
+A sample DEB file using [AppSync](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified), [appinst](https://cydia.akemi.ai/?page/com.linusyang.appinst) and signer.sh (from [this Reddit post](https://www.reddit.com/r/jailbreak/comments/8yj9i1/tutorialhow_to_properly_install_any_unsigned_ipa/)) to fake sign and install apps on Jailbroken iDevices.
 
-這是一個範例DEB檔案，使用AppSync、appinst和signer.sh進行fake sign後，安裝App至已越獄的iDevice上。
+這是一個範例DEB檔案，使用[AppSync](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified)、[appinst](https://cydia.akemi.ai/?page/com.linusyang.appinst)和signer.sh（從[這個Reddit帖子](https://www.reddit.com/r/jailbreak/comments/8yj9i1/tutorialhow_to_properly_install_any_unsigned_ipa/)取得的）進行fake sign後，安裝App至已越獄的iDevice上。
 
 ### Disclaimer: This sample should not be modified to distribute pirated iOS Apps, I'm not responsible to any legal responsibility made by any DEB package based on this sample.
 
@@ -23,6 +23,8 @@ Step 5. Open the terminal and cd to ```JB-App-Installer-Sample-DEB```
 
 Step 6. Enter the command to package ```dpkg -b [the directory name modified in Step 4]```
 
+### Before installing the DEB file modified by this sample, you should add https://cydia.akemi.ai/ repo to your package manager first.
+
 ## 如何使用
 以下以macOS為例，請先使用brew安裝DPKG
 
@@ -38,5 +40,4 @@ Step 5. 開啟終端機，cd至```JB-App-Installer-Sample-DEB```
 
 Step 6. 輸入指令進行打包```dpkg -b [Step 4所設定的目錄名稱]```
 
-### Before installing the DEB file modified by this sample, you should add https://cydia.akemi.ai/ repo to your package manager first.
 ### 安裝修改自本範例的DEB前，請先在套件管理工具中加入 https://cydia.akemi.ai/ 軟體源
