@@ -1,0 +1,10 @@
+Package: [com.orgname.packagename]
+Name: [Package Name]
+Version: [Version]
+Architecture: iphoneos-arm
+Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
+Description: [Package Description]
+Homepage: [Your Homepage]
+Maintainer: [Your Name]
+Author: [Your Name]
+Section: [What kind of App you're installing?]

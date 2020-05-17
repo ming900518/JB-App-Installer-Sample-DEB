@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /var/mobile/IPAInstTemp
+chmod +x signer.sh
+./signer.sh Unsigned.ipa
+appinst [AppName].ipa
+cd ..
+rm -r IPAInstTemp
