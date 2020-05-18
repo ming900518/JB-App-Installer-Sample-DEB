@@ -2,7 +2,7 @@ Package: [com.orgname.packagename]
 Name: [Package Name]
 Version: [Version]
 Architecture: iphoneos-arm
-Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
+Depends: net.angelxwind.appsyncunified, com.linusyang.appinst zip unzip ldid
 Description: [Package Description]
 Homepage: [Your Homepage]
 Maintainer: [Your Name]
